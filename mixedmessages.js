@@ -34,7 +34,7 @@ const mixedMessage = {
     return this._words["subjects"];
   },
   set subjects(subject){
-    this._words["subjects"].push(subjects);
+    this._words["subjects"].push(subject);
   },
 
   // grab a random word from an array
@@ -55,4 +55,22 @@ const mixedMessage = {
 
 };
 
-console.log(mixedMessage);
+console.log('Tests');
+console.log('1. Add some words ( 3 entries per array )')
+mixedMessage["entities"] = 'Nasa';
+mixedMessage["entities"] = 'Donald Trump';
+mixedMessage["entities"] = 'Alien Overlord';
+console.log(mixedMessage["entities"]);
+mixedMessage["actions"] = 'arrested';
+mixedMessage["actions"] = 'discovered';
+mixedMessage["actions"] = 'rehabilitated';
+console.log(mixedMessage["actions"]);
+mixedMessage["subjects"] = 'due to covid.';
+mixedMessage["subjects"] = 'due to bad parenting.';
+mixedMessage["subjects"] = 'as a consequence of money laundering.';
+console.log(mixedMessage["subjects"]);
+
+console.log('2. Randomly select words - 1 random word per array');
+console.log(mixedMessage.randomWord('entities'));
+console.log(mixedMessage.randomWord('actions'));
+console.log(mixedMessage.randomWord('subjects'));
