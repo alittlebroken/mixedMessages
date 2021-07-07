@@ -24,6 +24,11 @@ The theme of the message will be a random news headline and the string will ment
 - Function to assemble the final message
 - Function to display the final message to the user
 
+## Tests
+---
+- Produce random words from the words object
+- We can add new words
+
 ## Future Scope
 ---
 - Randomize the sentence itself around the 3 words
