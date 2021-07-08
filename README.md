@@ -1,6 +1,6 @@
 # mixedmessages
 ---
-a small javascript app that displays a random message to the user
+a small javascript app that displays a random nonsensical message of a (hopefully) fake news headline
 
 ## Getting Started
 ---
@@ -17,7 +17,7 @@ These instructions were written using Windows 10 and Git Bash
 Clone this repo to a local folder
 
 ```
-git clone {github_url_here}
+git clone https://github.com/alittlebroken/mixedMessages.git
 ```
 
 Run the program
